@@ -31,3 +31,12 @@ doctalker/
 Here’s an example screenshot of the application in action:
 
 ![Example Screenshot](Images/result.png)
+
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
