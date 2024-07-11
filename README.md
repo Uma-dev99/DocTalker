@@ -6,7 +6,7 @@ DocTalker is a document-upload-and-chat application powered by GPT, Embedding, L
 
 - **Upload Documents**: Supports uploading of text, PDF, and Word documents.
 - **Extract Text**: Automatically extracts text from uploaded documents.
-- **Store Content**: Saves document content and embeddings in Supabase.
+- **Store Content**: Saves document content and embeddings in FAISS.
 - **Generate Embeddings**: Uses LangChain to generate embeddings for the extracted content.
 - **Chat with Documents**: Leverages GPT to enable interactive chat with the document content.
 
