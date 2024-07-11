@@ -18,3 +18,16 @@ doctalker/
 ├── requirements.txt
 ├── .env
 └── README.md
+```
+
+## Usage
+
+1. Upload PDF files using the sidebar.
+2. Once uploaded, the application processes the PDF and creates vector embeddings.
+3. You can then ask questions in the main interface and get responses based on the content of the uploaded PDFs.
+
+## Example Screenshot
+
+Here’s an example screenshot of the application in action:
+
+![Example Screenshot](Images/result.png)
