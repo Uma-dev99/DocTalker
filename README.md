@@ -30,7 +30,6 @@ doctalker/
 
 Here’s an example screenshot of the application in action:
 
-<<<<<<< HEAD
 ![Example Screenshot](Images/results.png)
 
 
