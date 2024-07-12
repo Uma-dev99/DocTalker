@@ -30,4 +30,4 @@ doctalker/
 
 Here’s an example screenshot of the application in action:
 
-![Example Screenshot](Images/result.png)
+![Example Screenshot](Images/results.png)

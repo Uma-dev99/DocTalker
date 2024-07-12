@@ -5,7 +5,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 from langchain.chains.question_answering import load_qa_chain
@@ -67,8 +67,9 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("DocTalker")
-    st.header("Chat With Multiple PDFs ")
-
+    # st.header("Chat With Multiple PDFs ")
+    st.markdown("<h1 style='text-align: center;'>DocTalker: Chat with Your PDFs using Google Gemini Pro </h1>",
+                unsafe_allow_html=True)
     user_question = st.text_input("Ask a Question from the PDF Files")
 
     if user_question:
