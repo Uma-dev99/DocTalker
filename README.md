@@ -1,6 +1,6 @@
 # DocTalker
 
-DocTalker is a document-upload-and-chat application powered by GPT, Embedding, LangChain, and Supabase. It allows users to upload documents, extract and store their content, create embeddings, and interact with the content through a chat interface using Streamlit.
+DocTalker is a document-upload-and-chat application powered by Gemini Pro, Embedding, LangChain, and FAISS. It allows users to upload documents, extract and store their content, create embeddings, and interact with the content through a chat interface using Streamlit.
 
 ## Features
 
@@ -8,7 +8,7 @@ DocTalker is a document-upload-and-chat application powered by GPT, Embedding, L
 - **Extract Text**: Automatically extracts text from uploaded documents.
 - **Store Content**: Saves document content and embeddings in FAISS.
 - **Generate Embeddings**: Uses LangChain to generate embeddings for the extracted content.
-- **Chat with Documents**: Leverages GPT to enable interactive chat with the document content.
+- **Chat with Documents**: Leverages Gemini Pro to enable interactive chat with the document content.
 
 ## Project Structure
 
@@ -30,4 +30,16 @@ doctalker/
 
 Here’s an example screenshot of the application in action:
 
+<<<<<<< HEAD
 ![Example Screenshot](Images/results.png)
+
+
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
