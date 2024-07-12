@@ -10,6 +10,16 @@ DocTalker is a document-upload-and-chat application powered by Gemini Pro, Embed
 - **Generate Embeddings**: Uses LangChain to generate embeddings for the extracted content.
 - **Chat with Documents**: Leverages Gemini Pro to enable interactive chat with the document content.
 
+## Tech Stack
+
+- **Python**: Programming language used for backend logic
+- **Streamlit**: Framework used for creating the web application UI
+- **PyPDF2**: Library for extracting text from PDF files
+- **LangChain**: Framework for managing text splitting and vector stores
+- **FAISS**: Facebook AI Similarity Search library for vector embeddings
+- **Google Gemini Pro**: Gemini-pro model for generating conversational responses
+
+
 ## Project Structure
 
 ```plaintext
@@ -19,6 +29,24 @@ doctalker/
 ├── .env
 └── README.md
 ```
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Uma-dev99/DocTalker.git
+    cd DocTalker
+    ```
+
+2. Install the required packages:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. Run the Streamlit app:
+    ```sh
+    streamlit run app.py
+    ```
+
 
 ## Usage
 
