@@ -4,7 +4,7 @@ DocTalker is a document-upload-and-chat application powered by Gemini Pro, Embed
 
 ## Features
 
-- **Upload Documents**: Supports uploading of text, PDF, and Word documents.
+- **Upload Documents**: Supports uploading of PDF documents.
 - **Extract Text**: Automatically extracts text from uploaded documents.
 - **Store Content**: Saves document content and embeddings in FAISS.
 - **Generate Embeddings**: Uses LangChain to generate embeddings for the extracted content.
